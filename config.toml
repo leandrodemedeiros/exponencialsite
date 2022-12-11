@@ -118,19 +118,19 @@ videoURL = "https://www.youtube.com/embed/g3-VxLQO7do"
 code = "en"
 [[menu.nav]]
 name = "Quem Somos"
-url = "#about"
+url = "about"
 weight = 1
 [[menu.nav]]
 name = "Nossos Serviços"
-url = "#service"
+url = "service"
 weight = 2
 [[menu.nav]]
-name = "Portfolio"
-url = "#portfólio"
+name = "Portfólio"
+url = "portfolio"
 weight = 3
 [[menu.nav]]
 name = "Contato"
-url = "#contact"
+url = "contact"
 weight = 4
 [[menu.quicklink]]
 name = "badges"
