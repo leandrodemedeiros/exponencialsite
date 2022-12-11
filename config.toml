@@ -117,50 +117,50 @@ videoURL = "https://www.youtube.com/embed/g3-VxLQO7do"
 [[Params.listeLangues]]
 code = "en"
 [[menu.nav]]
-name = "about"
-url = "about"
-weight = 2
-[[menu.nav]]
-name = "service"
-url = "service"
-weight = 3
-[[menu.nav]]
-name = "portfolio"
-url = "portfolio"
-weight = 4
+name = "contact"
+url = "contact"
+weight = 5
 [[menu.nav]]
 name = "blog"
 url = "blog"
-weight = 5
+weight = 4
 [[menu.nav]]
-name = "contact"
-url = "contact"
-weight = 6
-[[menu.quicklink]]
-name = "partners"
-url = "about"
+name = "portfolio"
+url = "portfolio"
+weight = 3
+[[menu.nav]]
+name = "service"
+url = "service"
+weight = 2
+[[menu.nav]]
+name = "about"
+url = "#about"
 weight = 1
 [[menu.quicklink]]
-name = "about"
+name = "badges"
 url = "about"
-weight = 2
+weight = 4
 [[menu.quicklink]]
 name = "faqs"
 url = "about"
 weight = 3
 [[menu.quicklink]]
-name = "badges"
+name = "about"
 url = "about"
-weight = 4
-[[menu.service]]
-name = "graphicdesign"
-url = "service"
+weight = 2
+[[menu.quicklink]]
+name = "partners"
+url = "about"
 weight = 1
+[[menu.service]]
+name = "webdevelopment"
+url = "service"
+weight = 3
 [[menu.service]]
 name = "webdesign"
 url = "service"
 weight = 2
 [[menu.service]]
-name = "webdevelopment"
+name = "graphicdesign"
 url = "service"
-weight = 3
+weight = 1
