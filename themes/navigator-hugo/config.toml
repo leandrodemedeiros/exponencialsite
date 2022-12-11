@@ -102,7 +102,7 @@ DefaultContentLanguage = "en"
     title = "Example site multi-language"
     dateFormat = "January 2, 2006"
 
-    home = "EN Home"
+    home = "Home"
     logo = "images/logo.png"
     menufixed = false
 
