@@ -134,7 +134,7 @@ url = "service"
 weight = 2
 [[menu.nav]]
 name = "about"
-url = "#about"
+url = "/#about"
 weight = 1
 [[menu.quicklink]]
 name = "badges"
