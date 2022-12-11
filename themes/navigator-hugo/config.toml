@@ -1,6 +1,6 @@
-baseURL = "https://dazzling-albattani-01412d.netlify.com/"
+baseURL = "https://exponencial.com/"
 languageCode = "en-us"
-title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
+title = "Exponencial | Website"
 theme = "navigator-hugo"
 
 # Build robots.txt file
@@ -47,10 +47,10 @@ DefaultContentLanguage = "en"
 
     # Hero Area Section
     [Languages.fr.params.hero]
-        enable  = true
+        enable  = false
         heading = "FRANCAIS We love to make brands grow"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
-        button  = true
+        button  = false
         btnText = "Know More"
         btnURL  = "https://themefisher.com/"
         videoThumb = "images/slider/video-player-thumb.jpg"
