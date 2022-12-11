@@ -116,6 +116,10 @@ videoThumb = "images/slider/video-player-thumb.jpg"
 videoURL = "https://www.youtube.com/embed/g3-VxLQO7do"
 [[Params.listeLangues]]
 code = "en"
+[[menu.nav]]
+name = "Quem Somos"
+url = "#about"
+weight = 1
 [[menu.quicklink]]
 name = "badges"
 url = "about"
