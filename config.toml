@@ -7,7 +7,7 @@ googleAnalytics = ""
 languageCode = "en-us"
 pygmentsCodeFences = true
 theme = "navigator-hugo"
-title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
+title = "Exponencial"
 [Languages.en]
 dateFormat = "January 2, 2006"
 footerAboutTitle = "About"
