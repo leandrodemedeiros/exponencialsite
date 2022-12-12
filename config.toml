@@ -53,13 +53,13 @@ enable = true
 subtitle = "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
 title = "Let's Create Something Together"
 [Languages.en.params.hero]
-btnText = "Know More"
-btnURL = "https://themefisher.com/"
+btnText = "Saiba mais"
+btnURL = "#about"
 button = true
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
 enable = true
 heading = "We love to make brands grow"
-videoThumb = "images/slider/video-player-thumb.jpg"
+videoThumb = "images/video-player-thumb.jpg"
 videoURL = "https://www.youtube.com/embed/g3-VxLQO7do"
 [Languages.fr]
 dateFormat = "2 January 2006"
