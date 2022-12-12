@@ -54,7 +54,7 @@ a:focus, a:hover {
 
 .btn-main, .btn-main-sm {
   background-color: #21D6BF;
-  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+  background-image: linear-gradient(100deg, #00adee, #4583ff);
   color: #fff;
   display: inline-block;
   font-size: 14px;
