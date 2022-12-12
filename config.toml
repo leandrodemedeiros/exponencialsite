@@ -10,21 +10,21 @@ theme = "navigator-hugo"
 title = "Exponencial"
 [Languages.en]
 dateFormat = "January 2, 2006"
-footerAboutTitle = "About"
-footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
-footerQuicklinkTitle = "Quicklinks"
-footerServiceTitle = "Service"
-footerSubscribeTitle = "Subscribe"
+footerAboutTitle = "Quem Somos"
+footerDescription = "A Exponencial apresenta soluções em tecnologia, com objetivo de integrar a gestão empresarial, as camadas de governança, compliance, ISO, LGPD e a segurança dos sistemas de informação."
+footerQuicklinkTitle = "Mais Links"
+footerServiceTitle = "Nossos Serviços"
+footerSubscribeTitle = "Inscreva-se"
 home = "Home"
 languageCode = "en-us"
 logo = "images/logo.png"
 menufixed = false
-title = "Example site multi-language"
+title = "Exponencial"
 weight = 2
 [Languages.en.params.aboutSm]
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
+description = "A Exponencial apresenta soluções em tecnologia, com objetivo de integrar a gestão empresarial, as camadas de governança, compliance, ISO, LGPD e a segurança dos sistemas de informação em uma plataforma que permita o controle da informação alinhado com a gestão e os processos de segurança e qualidade. De modo a facilitar a tomada de decisão diretiva em conformidade com as inovações tecnológicas e normativas exigidas nos mercados nacionais e internacionais."
 enable = true
-title = "We have explored the digital landscape with passion for a long time"
+title = "Quem Somos"
 [Languages.en.params.blog]
 enable = true
 subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
@@ -48,17 +48,17 @@ topTitle = "DROP US A NOTE"
 twitter = "https://twitter.com/"
 [Languages.en.params.cta]
 bg = "images/call-to-action/call-to-action-bg-2.jpg"
-btnText = "Contact Us"
+btnText = "Entre em contato"
 enable = true
 subtitle = "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
-title = "Let's Create Something Together"
+title = "Vamos criar algo juntos."
 [Languages.en.params.hero]
 btnText = "Saiba mais"
 btnURL = "#about"
 button = true
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
 enable = true
-heading = "We love to make brands grow"
+heading = "Bem-vindo ao site da Exponencial"
 videoThumb = "images/video-player-thumb.jpg"
 videoURL = "https://www.youtube.com/embed/g3-VxLQO7do"
 [Languages.fr]
