@@ -9,12 +9,12 @@ other = "Blog"
 [contact]
 other = "Contato"
 
-[graphicdesign]
-other = "Graphic Design"
-[webdesign]
-other = "Web Design"
-[webdevelopment]
-other = "Web Development"
+[gestaoqualidade]
+other = "Gestão de Qualidade"
+[segurancainformacao]
+other = "Segurança da Informação"
+[iso]
+other = "Iso"
 
 [partners]
 other = "Partners"
