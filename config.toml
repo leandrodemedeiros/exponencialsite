@@ -1,5 +1,5 @@
 DefaultContentLanguage = "en"
-baseURL = "https://exponencial.com"
+baseURL = ""
 defaultContentLanguageInSubdir = false
 enableGitInfo = false
 enableRobotsTXT = true
