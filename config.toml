@@ -117,25 +117,25 @@ videoURL = "https://www.youtube.com/embed/g3-VxLQO7do"
 [[Params.listeLangues]]
 code = "en"
 [[menu.nav]]
-name = "Nossos Serviços"
-url = "#services"
-weight = 2
-[[menu.nav]]
-name = "Portfólio"
-url = "#portfolio"
-weight = 3
-[[menu.nav]]
-name = "Equipe"
-url = "#team"
-weight = 4
+name = "Quem somos"
+url = "#about"
+weight = 1
 [[menu.nav]]
 name = "Contato"
 url = "#contact"
 weight = 5
 [[menu.nav]]
-name = "Quem somos"
-url = "#about"
-weight = 1
+name = "Equipe"
+url = "#team"
+weight = 4
+[[menu.nav]]
+name = "Portfólio"
+url = "#portfolio"
+weight = 3
+[[menu.nav]]
+name = "Nossos Serviços"
+url = "#services"
+weight = 2
 [[menu.quicklink]]
 name = "badges"
 url = "about"
@@ -153,14 +153,14 @@ name = "partners"
 url = "about"
 weight = 1
 [[menu.service]]
-name = "ISO"
-url = "#service"
+name = "gestaoqualidade"
+url = "service"
 weight = 3
 [[menu.service]]
-name = "Segurança da Informação"
-url = "#service"
+name = "segurancainformacao"
+url = "service"
 weight = 2
 [[menu.service]]
-name = "Gestão de Qualidade"
-url = "#service"
+name = "iso"
+url = "service"
 weight = 1
