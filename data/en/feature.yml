@@ -1,16 +1,14 @@
-enable  : true
-item  :
-  - icon  : tf-ion-ios-copy-outline
-    title : WordPress Theme
-    description : >
-      Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.
+---
+enable: true
+item:
+- icon: tf-ion-ios-copy-outline
+  title: Profissional Licenciado
+  description: 'Totalmente qualificado em nossa área
 
-  - icon  : tf-ion-ios-alarm-outline
-    title : Responsive Design
-    description : >
-      Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.
-
-  - icon  : tf-ion-ios-book-outline
-    title : Media & Advertisement
-    description : >
-      Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.
+    '
+- icon: tf-ion-ios-alarm-outline
+  title: Serviço Personalizado
+  description: Experiência profissional e especializada
+- icon: tf-ion-ios-book-outline
+  title: Melhor Qualidade
+  description: Garantimos sua total satisfação
