@@ -190,15 +190,15 @@ DefaultContentLanguage = "en"
 
     # Footer Service Menu
     [[menu.service]]
-        name    = "graphicdesign"
+        name    = "gestaoqualidade"
         url     = "service"
         weight  = 1
     [[menu.service]]
-        name    = "webdesign"
+        name    = "segurancainformacao"
         url     = "service"
         weight  = 2
     [[menu.service]]
-        name    = "webdevelopment"
+        name    = "iso"
         url     = "service"
         weight  = 3
 
