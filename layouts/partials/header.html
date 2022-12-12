@@ -18,7 +18,7 @@
                     </button>
                     <!-- Icones & drapeaux de choix des langues -->
                     <!-- <div id="drapeaux">
-                        <!-- Pour passer la langue actuelle (variable globale) dans la range => explicitement -->
+                         Pour passer la langue actuelle (variable globale) dans la range => explicitement -->
                         <!-- {{ range .Site.Params.listeLangues }} -->
                         <!-- {{ partial "flags.html" (dict "site" $.Site "liste" .) }} -->
                         <!-- {{ end }} -->
@@ -27,7 +27,7 @@
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
                                 <a class="nav-link"
-                                    href="{{ .Site.BaseURL }}">{{ with .Site.Params.home }}{{ . }}{{ end }}</a>
+                                    href="{{ .URL | absURL }}">{{ with .Site.Params.home }}{{ . }}{{ end }}</a>
                             </li>
                             {{ range .Site.Menus.nav }}
                             {{ if .HasChildren }}
