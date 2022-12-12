@@ -468,7 +468,14 @@ a:focus, a:hover {
 
 .navigation {
   transition: .3s all;
-  background: #1f2532;
+  /* background: #1f2532; */
+  transition: .3s all;
+  background: rgba(31, 37, 50, 0.71);
+  box-shadow: 0px 5px 36px -12px black;
+  position: fixed;
+  z-index: 19999;
+  width: 100%;
+  -webkit-backdrop-filter: blur(5px);
 }
 
 .navigation .navbar-nav > li.active a {
