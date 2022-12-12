@@ -6,22 +6,22 @@ webhook_url:
 sections:
 - type: directory
   path: data
-  label: Pages
+  label: Páginas
   create: all
   match: "**/*"
 - type: directory
   path: content/service
-  label: Service
+  label: Nossos Serviços
   create: all
   match: "**/*"
 - type: directory
   path: content/portfolio
-  label: Portfolio
+  label: Portfólio
   create: all
   match: "**/*"
 - type: directory
   path: content/contact
-  label: Contact
+  label: Contato
   create: all
   match: "**/*"
 - type: directory
@@ -31,14 +31,14 @@ sections:
   match: "**/*"
 - type: directory
   path: content/about
-  label: About
+  label: Quem Somos
   create: all
   match: "**/*"
 - type: heading
-  label: Settings
+  label: Ajustes
 - type: document
   path: config.toml
-  label: Config
+  label: Configuração geral
 upload_dir: static/images
 public_path: "/uploads"
 front_matter_path: ''
