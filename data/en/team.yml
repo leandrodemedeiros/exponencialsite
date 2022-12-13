@@ -2,8 +2,7 @@
 enable: true
 topTitle: EQUIPE EXPONENCIAL
 title: Nosso Time
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis
-  quasi itaque, obcaecati atque sit!
+subtitle: ''
 member:
 - image: images/team/member-1.jpg
   name: Ronald Caselli
