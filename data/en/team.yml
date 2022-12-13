@@ -4,7 +4,7 @@ topTitle: EQUIPE EXPONENCIAL
 title: Nosso Time
 subtitle: ''
 member:
-- image: images/team/member-1.jpg
+- image: images/team/ronald.png
   name: Ronald Caselli
   designation: CEO Exponencial ADM
   description: Especialista em gestão de riscos, negócios, auditoria e certificação
@@ -13,7 +13,7 @@ member:
   twitterURL: https://twitter.com/
   gplusURL: https://plus.google.com/
   dribbbleURL: https://dribbble.com/
-- image: images/team/member-2.jpg
+- image: images/team/gabriela.png
   name: Gabriela Andrade
   designation: Diretora de Publicidade
   description: Fundadora da Exponencial e Diretora de Publicidade - Gestão de publicidade
@@ -22,7 +22,7 @@ member:
   twitterURL: https://twitter.com/
   gplusURL: https://plus.google.com/
   dribbbleURL: https://dribbble.com/
-- image: images/team/member-3.jpg
+- image: images/team/dilamar.png
   name: Dilamar Hoffmann
   designation: DPO da Exponencial
   description: Encarregado pela proteção de dados
@@ -30,7 +30,7 @@ member:
   twitterURL: https://twitter.com/
   gplusURL: https://plus.google.com/
   dribbbleURL: https://dribbble.com/
-- image: images/team/member-4.jpg
+- image: images/team/wendel.png
   name: Wendel Pereira
   designation: CTO Exponencial ADM
   description: Especialista em análise de dados e segurança da informação
