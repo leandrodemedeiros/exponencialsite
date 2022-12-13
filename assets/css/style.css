@@ -374,7 +374,7 @@ a:focus, a:hover {
 }
 
 .bg-gray {
-  background: #1d1d1d url(/images/bg-gray.jpg) center top no-repeat;
+  background: #1d1d1d url(../images/bg-gray.jpg) center top no-repeat;
 }
 
 .color-gray {
@@ -581,7 +581,7 @@ a:focus, a:hover {
       -ms-flex-align: center;
           align-items: center;
   /* background: #1f2532; */
-  background: #041424 url(/images/fundo-hero.png) center bottom no-repeat;
+  background: #041424 url(../images/fundo-hero.png) center bottom no-repeat;
   background-size:auto;
 }
 
