@@ -106,8 +106,8 @@ DefaultContentLanguage = "en"
     logo = "images/logo.png"
     menufixed = true
 
-    footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
-    footerServiceTitle = "Serviços"
+    footerDescription = "A Exponencial apresenta soluções em tecnologia, com objetivo de integrar a gestão empresarial, as camadas de governança, compliance, ISO, LGPD e a segurança dos sistemas de informação."
+    footerServiceTitle = "Nossos Serviços"
     footerQuicklinkTitle = "Mais Links"
     footerAboutTitle = "Quem Somos"
     footerSubscribeTitle = "Inscreva-se"
@@ -150,8 +150,8 @@ DefaultContentLanguage = "en"
         linkedin= "https://www.linkedin.com/"
         dribbble= "https://dribbble.com/"
         instagram= "https://www.instagram.com/"
-        mapLatitude = "51.507351"
-        mapLongitude= "-0.127758"
+        mapLatitude = "-15.7801"
+        mapLongitude= "-47.9292"
         mapMarker   = "images/marker.png"
 
     # Call to Action Section on About Page
