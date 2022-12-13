@@ -99,7 +99,7 @@ DefaultContentLanguage = "en"
     [Languages.en]
     weight = 2
     languageCode = "en-us"
-    title = "Example site multi-language"
+    title = "Exponencial"
     dateFormat = "January 2, 2006"
 
     home = "Home"
@@ -120,7 +120,7 @@ DefaultContentLanguage = "en"
         button  = true
         btnText = "Know More"
         btnURL  = "https://themefisher.com/"
-        videoThumb = "images/slider/video-player-thumb.jpg"
+        videoThumb = "images/video-player-thumb.jpg"
         videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
     # About 2 Section
