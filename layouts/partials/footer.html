@@ -12,7 +12,7 @@
                     <ul>
                         {{ range .Site.Menus.service }}
                         <li>
-                            <a href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+                            <a href="#{{ .URL | safeURL }}">{{ i18n .Name }}</a>
                         </li>
                         {{ end }}
                     </ul>
@@ -22,7 +22,7 @@
                     <ul>
                         {{ range .Site.Menus.quicklink }}
                         <li>
-                            <a href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+                            <a href="#{{ .URL | safeURL }}">{{ i18n .Name }}</a>
                         </li>
                         {{ end }}
                     </ul>

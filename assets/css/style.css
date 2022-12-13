@@ -374,7 +374,7 @@ a:focus, a:hover {
 }
 
 .bg-gray {
-  background: #f9f9f9;
+  background: #1d1d1d url(/images/bg-gray.jpg) center top no-repeat;
 }
 
 .color-gray {
@@ -580,7 +580,9 @@ a:focus, a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #1f2532;
+  /* background: #1f2532; */
+  background: #061424 url(/images/fundo-hero.png) center bottom no-repeat;
+  background-size:auto;
 }
 
 @media (max-width: 480px) {
@@ -751,7 +753,9 @@ a:focus, a:hover {
   About us 2 section
 ==================================================================*/
 .about-2 {
-  background: #F7F7F7;
+  /* background: #F7F7F7; */
+  padding: 160px 0;
+  color: white;
 }
 
 .about-2 h2 {
@@ -1801,12 +1805,17 @@ a:focus, a:hover {
   transition: all 0.2s ease-out 0s;
   padding: 15px 0;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid #dedede;
+  /* border-bottom: 1px solid #dedede; */
   z-index: 10;
 }
 
 .top-bar.animated-header {
-  padding: 20px 0;
-  background: #fff;
+  padding: 7px 0;
+  /* background: #001420; */
   box-shadow: none;
+  min-height: 106px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background: rgba(0, 20, 32, 0.7);
+  box-shadow: 0px 5px 36px -12px black;
 }
