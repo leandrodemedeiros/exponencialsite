@@ -1,45 +1,41 @@
-enable  : true
+---
+enable: true
 topTitle: TEAM MEMBER
-title   : Our Team.
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
-
-member  :
-  - image         : images/team/member-1.jpg
-    name          : Shawshank Redemption
-    designation   : Head Of Marketing
-    description   : >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    facebookURL   : https://www.facebook.com/
-    twitterURL    : https://twitter.com/
-    gplusURL      : https://plus.google.com/
-    dribbbleURL   : https://dribbble.com/
-
-  - image         : images/team/member-2.jpg
-    name          : Leo Departure
-    designation   : Web Developer
-    description   : >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    facebookURL   : https://www.facebook.com/
-    twitterURL    : https://twitter.com/
-    gplusURL      : https://plus.google.com/
-    dribbbleURL   : https://dribbble.com/
-
-  - image         : images/team/member-3.jpg
-    name          : Remoni Rio
-    designation   : Senior Developer
-    description   : >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    facebookURL   : https://www.facebook.com/
-    twitterURL    : https://twitter.com/
-    gplusURL      : https://plus.google.com/
-    dribbbleURL   : https://dribbble.com/
-
-  - image         : images/team/member-4.jpg
-    name          : Lawandeski Roma
-    designation   : Designer
-    description   : >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    facebookURL   : https://www.facebook.com/
-    twitterURL    : https://twitter.com/
-    gplusURL      : https://plus.google.com/
-    dribbbleURL   : https://dribbble.com/
+title: Nosso Time
+subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis
+  quasi itaque, obcaecati atque sit!
+member:
+- image: images/team/member-1.jpg
+  name: Ronald Caselli
+  designation: CEO Exponencial ADM
+  description: Especialista em gestão de riscos, negócios, auditoria e certificação
+    ISO
+  facebookURL: https://www.facebook.com/
+  twitterURL: https://twitter.com/
+  gplusURL: https://plus.google.com/
+  dribbbleURL: https://dribbble.com/
+- image: images/team/member-2.jpg
+  name: Gabriela Andrade
+  designation: Diretora de Publicidade
+  description: Fundadora da Exponencial e Diretora de Publicidade - Gestão de publicidade
+    e mídias digitais
+  facebookURL: https://www.facebook.com/
+  twitterURL: https://twitter.com/
+  gplusURL: https://plus.google.com/
+  dribbbleURL: https://dribbble.com/
+- image: images/team/member-3.jpg
+  name: Dilamar Hoffmann
+  designation: DPO da Exponencial
+  description: Encarregado pela proteção de dados
+  facebookURL: https://www.facebook.com/
+  twitterURL: https://twitter.com/
+  gplusURL: https://plus.google.com/
+  dribbbleURL: https://dribbble.com/
+- image: images/team/member-4.jpg
+  name: Wendel Pereira
+  designation: CTO Exponencial ADM
+  description: Especialista em análise de dados e segurança da informação
+  facebookURL: https://www.facebook.com/
+  twitterURL: https://twitter.com/
+  gplusURL: https://plus.google.com/
+  dribbbleURL: https://dribbble.com/
