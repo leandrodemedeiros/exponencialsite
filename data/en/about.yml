@@ -2,62 +2,36 @@
 enable: true
 item:
 - positionRight: false
-  image: images/about/about-1.jpg
   title: Gestão da Qualidade
-  description: 'A implantação de um sistema de gestão de qualidade irá potencializar
+  image: images/about/about-1.jpg
+  description: A implantação de um sistema de gestão de qualidade irá potencializar
     a satisfação dos clientes. A plataforma propõe a melhoria contínua da organização,
     dos processos operacionais, do desempenho das pessoas, dos produtos e do próprio
     ambiente de trabalho. Tome o controle e acelere os resultados administrativos
     e financeiros.
 
-    '
-  name: Gestão de Qualidade
+  name: Segurança da Informação
 - positionRight: true
   image: images/about/about-2.jpg
   title: Segurança da Informação
-  description: 'Em tempos de constante crescimento das atividades online, surgiu a
+  description: Em tempos de constante crescimento das atividades online, surgiu a
     necessidade de melhorar a proteção dos dados dos clientes da sua empresa, seu
     maior bem. Proteja sua empresa com nível militar de segurança da informação implementando
     medidas técnicas e organizacionais.
-
-    '
+    
 - positionRight: false
-  image: images/about/about-1.jpg
   title: ISO
+  image: images/about/about-1.jpg
   description: Certifique a sua empresa em diferentes frentes de trabalho, como na
     segurança de dados e/ou na qualidade dos seus produtos e serviços.  A boa gestão
     do negócio otimiza processos e possibilita medir os resultados.  O que não é gerenciado
     não pode ser medido.
-  icon: ''
-  category: ''
-  name: ''
-  price: ''
-  featurelist: ''
-  btnText: ''
-  btnURL: ''
-  list: ''
-  quote: ''
-  clientThumb: ''
-  clientName: ''
-  clientDesignation: ''
-  number: ''
+  
 - positionRight: true
-  image: images/about/about-1.jpg
   title: LGPD
+  image: images/about/about-1.jpg
   description: A Lei Geral de Proteção de Dados segue tendência mundial no sentido
     de preservar a privacidade do indivíduo. Com base nessa lei, aqueles que desejam
     realizar o tratamento de dados pessoais necessitam obrigatoriamente seguirem as
     orientações da lei, sob pena de serem responsabilizados pelo uso indevido.
-  icon: ''
-  category: ''
-  name: ''
-  price: ''
-  featurelist: ''
-  btnText: ''
-  btnURL: ''
-  list: ''
-  quote: ''
-  clientThumb: ''
-  clientName: ''
-  clientDesignation: ''
-  number: ''
+

@@ -177,7 +177,7 @@ DefaultContentLanguage = "en"
         weight  = 3
     [[menu.nav]]
         name    = "portfolio"
-        url     = "portfolio"
+        url     = "clients"
         weight  = 4
     [[menu.nav]]
         name    = "blog"

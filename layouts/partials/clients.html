@@ -2,9 +2,19 @@
 {{ with $data.clients }}
     {{ if .enable }}
     {{ "<!-- Client Section Start -->" | safeHTML }}
-    <section class="section bg-gray">
+    <section class="section bg-gray" id="clients">
         <div class="container">
             <div class="row">
+                <div class="col">
+                    <div class="title text-center">
+                        {{ with .topTitle }}<h4>{{.}}</h4>{{ end }}
+                        {{ with .title }}
+                        <h2>{{.}}</h2>
+                        <span class="border"></span>
+                        {{ end }}
+                        {{ with .Site.Params.clients.subtitle }}<p>{{.}}</p>{{ end }}
+                    </div>
+                </div>
                 <!-- <div class="col-md-6 text-center">
                     {{ with .image }}<img class="img-fluid shadow rounded" src="{{ . | absURL }}" alt="service-image"/>{{ end }}
                 </div>
