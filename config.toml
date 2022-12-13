@@ -173,7 +173,7 @@ DefaultContentLanguage = "en"
         weight  = 2
     [[menu.nav]]
         name    = "service"
-        url     = "service"
+        url     = "services"
         weight  = 3
     [[menu.nav]]
         name    = "portfolio"

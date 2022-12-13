@@ -1,14 +1,14 @@
 ---
 enable: true
 item:
-- icon: tf-ion-ios-copy-outline
+- icon: tf-ion-ios-briefcase-outline
   title: Profissional Licenciado
   description: 'Totalmente qualificado em nossa área
 
     '
-- icon: tf-ion-ios-alarm-outline
+- icon: tf-ion-ios-color-filter-outline
   title: Serviço Personalizado
   description: Experiência profissional e especializada
-- icon: tf-ion-ios-book-outline
-  title: Melhor Qualidade
+- icon: tf-ion-ios-heart-outline
+  title: Melhor Qualidade do Mercado
   description: Garantimos sua total satisfação

@@ -138,13 +138,15 @@ a:focus, a:hover {
 
 .section-sm {
   padding: 70px 0;
-  background: #041424 url(../images/bg-blue.jpg) center top no-repeat;
-  background-size: auto 100%;
+  background: #1d1d1d url(../images/bg-gray.jpg) center top no-repeat;
+  background-size: auto;
   color: white;
 }
 
 .section-xs {
-  padding: 40px 0;
+  padding: 100px 0;
+  background: #041424 url(../images/bg-blue.jpg) center top no-repeat;
+  background-size: auto;
 }
 
 .btn.active:focus, .btn:active:focus, .btn:focus {
@@ -379,6 +381,10 @@ a:focus, a:hover {
 
 .bg-gray {
   background: #1d1d1d url(../images/bg-gray.jpg) center top no-repeat;
+}
+
+.bg-blue {
+  background: #031420 url(../images/bg-blue.jpg) center top no-repeat;
 }
 
 .color-gray {
@@ -1180,11 +1186,13 @@ a:focus, a:hover {
 ==================================================================*/
 .services .service-block {
   padding: 30px 20px;
+  border: 1px solid #00adee;
+  margin: 10px 0;
 }
 
 @media (max-width: 480px) {
   .services .service-block {
-    padding: 15px;
+    padding: 15px;    
   }
 }
 
@@ -1193,21 +1201,21 @@ a:focus, a:hover {
 }
 
 .services .service-block i {
-  font-size: 40px;
+  font-size: 72px;
   color: #00adee;
-  background: linear-gradient(100deg, #f9643d, #fe2a77);
+  background: linear-gradient(100deg, #00adee,#4583ff);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .services .service-block h3 {
-  color: #333;
+  color: #00adee;
   font-size: 18px;
 }
 
 .services .service-block p {
-  color: #777;
+  color: white;
 }
 
 /*=================================================================
@@ -1432,7 +1440,7 @@ a:focus, a:hover {
 
 .team-member .member-content ul li a i {
   color: #00adee;
-  background: linear-gradient(100deg, #f9643d, #fe2a77);
+  background: linear-gradient(100deg, #00adee,#4583ff);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
