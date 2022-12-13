@@ -1,4 +1,4 @@
-baseURL = "https://exponencial.com/"
+baseURL = "https://exponencialadm.com/"
 languageCode = "en-us"
 title = "Exponencial | Website"
 theme = "navigator-hugo"
@@ -119,7 +119,7 @@ DefaultContentLanguage = "en"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
         button  = true
         btnText = "Entre em contato"
-        btnURL  = "#contato"
+        btnURL  = "#contact"
         videoThumb = "images/video-player-thumb.jpg"
         videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
@@ -140,7 +140,7 @@ DefaultContentLanguage = "en"
     [Languages.en.params.contact]
         enable  = true
         topTitle= "Envie uma mensagem"
-        title   = "Entre em Contato."
+        title   = "Entre em Contato"
         subtitle= ""
         address = "Cond. Vivendas Colorado I Conj. D, 4A, Sobradinho, Brasília - Brasil | CEP: 73.105-907"
         email     = "contato@exponencialadm.com"
