@@ -124,7 +124,7 @@ DefaultContentLanguage = "en"
         videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
     # About 2 Section
-    [Languages.en.params.aboutSm]
+    [Languages.en.params.aboutsm]
         enable  = true
         topTitle = "A Exponencial"
         title   = "Quem Somos"
@@ -132,7 +132,7 @@ DefaultContentLanguage = "en"
 
     # Blog Section On Homepage
     [Languages.en.params.blog]
-        enable  = true
+        enable  = false
         topTitle= "OUR UNTOLD STORY"
         title   = "Blog."
         subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
@@ -157,7 +157,7 @@ DefaultContentLanguage = "en"
 
     # Call to Action Section on About Page
     [Languages.en.params.cta]
-        enable  = true
+        enable  = false
         bg      = "images/call-to-action/call-to-action-bg-2.jpg"
         title   = "Let's Create Something Together"
         subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
