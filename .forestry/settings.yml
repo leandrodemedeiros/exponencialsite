@@ -5,41 +5,17 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: data/en/feature.yml
-  label: Spotlight
-  match: "**/*"
-- type: document
   path: data/en/about.yml
   label: Nossos Serviços
-  match: "**/*"
+- type: document
+  path: data/en/feature.yml
+  label: Spotlight
 - type: document
   path: data/en/clients.yml
   label: Portfólio
-  match: "**/*"
 - type: document
   path: data/en/team.yml
   label: Nosso Time
-  match: "**/*"
-- type: directory
-  path: data
-  label: Landing page
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/contact
-  label: Contato
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/blog
-  label: Blog
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/about
-  label: Quem Somos
-  create: all
-  match: "**/*"
 - type: heading
   label: Ajustes
 - type: document
