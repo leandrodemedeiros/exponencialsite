@@ -743,9 +743,9 @@ a:focus, a:hover {
 }
 
 .about h4 {
-  font-size: 14px;
+  /* font-size: 14px;
   color: #00adee;
-  letter-spacing: 1px;
+  letter-spacing: 1px; */
   text-transform: uppercase;
 }
 
@@ -755,13 +755,18 @@ a:focus, a:hover {
 }
 
 .about .content {
-  padding: 50px 0;
+  padding: 5px 0;
 }
 
 @media (max-width: 992px) {
   .about .content {
     padding: 5px 0;
   }
+}
+
+.rightleftboxes{
+  background: #2727279c;
+  padding: 30px;
 }
 
 /*=================================================================

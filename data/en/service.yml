@@ -1,9 +1,8 @@
 ---
 enable: true
-topTitle: A LIST OF SERVICES
+topTitle: O que nós fazemos
 title: Nossos Serviços
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis
-  quasi itaque, obcaecati atque sit!
+subtitle:
 item:
 - icon: tf-ion-ios-copy-outline
   title: Branding

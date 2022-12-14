@@ -1,5 +1,7 @@
 ---
 enable: true
+topTitle  : Diferenciais
+title     : Spotlight
 item:
 - icon: tf-ion-ios-briefcase-outline
   title: Profissional Licenciado

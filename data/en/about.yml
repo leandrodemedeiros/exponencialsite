@@ -1,9 +1,11 @@
 ---
 enable: true
+topTitle  : O que fazemos
+title     : Serviços
 item:
 - positionRight: false
   title: Gestão da Qualidade
-  image: images/about/about-1.jpg
+  image: images/about/qualidade.png
   description: A implantação de um sistema de gestão de qualidade irá potencializar
     a satisfação dos clientes. A plataforma propõe a melhoria contínua da organização,
     dos processos operacionais, do desempenho das pessoas, dos produtos e do próprio
@@ -12,7 +14,7 @@ item:
 
   name: Segurança da Informação
 - positionRight: true
-  image: images/about/about-2.jpg
+  image: images/about/seguranca.png
   title: Segurança da Informação
   description: Em tempos de constante crescimento das atividades online, surgiu a
     necessidade de melhorar a proteção dos dados dos clientes da sua empresa, seu
@@ -21,7 +23,7 @@ item:
     
 - positionRight: false
   title: ISO
-  image: images/about/about-1.jpg
+  image: images/about/iso.png
   description: Certifique a sua empresa em diferentes frentes de trabalho, como na
     segurança de dados e/ou na qualidade dos seus produtos e serviços.  A boa gestão
     do negócio otimiza processos e possibilita medir os resultados.  O que não é gerenciado
@@ -29,7 +31,7 @@ item:
   
 - positionRight: true
   title: LGPD
-  image: images/about/about-1.jpg
+  image: images/about/lgpd.png
   description: A Lei Geral de Proteção de Dados segue tendência mundial no sentido
     de preservar a privacidade do indivíduo. Com base nessa lei, aqueles que desejam
     realizar o tratamento de dados pessoais necessitam obrigatoriamente seguirem as
