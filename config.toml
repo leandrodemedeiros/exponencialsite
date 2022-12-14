@@ -108,7 +108,7 @@ DefaultContentLanguage = "en"
 
     footerDescription = "A Exponencial apresenta soluções em tecnologia, com objetivo de integrar a gestão empresarial, as camadas de governança, compliance, ISO, LGPD e a segurança dos sistemas de informação."
     footerServiceTitle = "Nossos Serviços"
-    footerQuicklinkTitle = "Mais Links"
+    footerQuicklinkTitle = "A Exponencial"
     footerAboutTitle = "Quem Somos"
     footerSubscribeTitle = "Inscreva-se"
 
@@ -116,7 +116,7 @@ DefaultContentLanguage = "en"
     [Languages.en.params.hero]
         enable  = true
         heading = "Exponencial"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+        description = "Um objetivo sem planejamento é apenas um sonho, mais um sonho com planejamento  se torna um objetivo. Sendo assim, a Exponencial encontra-se a disposição para lhe ajudar no desenvolvido deste planejamento."
         button  = true
         btnText = "Entre em contato"
         btnURL  = "#contact"
@@ -192,19 +192,19 @@ DefaultContentLanguage = "en"
     # Footer Service Menu
     [[menu.service]]
         name    = "gestaoqualidade"
-        url     = "service"
+        url     = "gestao"
         weight  = 1
     [[menu.service]]
         name    = "segurancainformacao"
-        url     = "service"
+        url     = "seguranca"
         weight  = 2
     [[menu.service]]
         name    = "iso"
-        url     = "service"
+        url     = "iso"
         weight  = 3
     [[menu.service]]
         name    = "LGPD"
-        url     = "service"
+        url     = "lgpd"
         weight  = 4
 
     # Footer Quick links Menu
@@ -217,8 +217,8 @@ DefaultContentLanguage = "en"
         url     = "clients"
         weight  = 2
     [[menu.quicklink]]
-        name    = "service"
-        url     = "service"
+        name    = "spotlight"
+        url     = "feature"
         weight  = 3
     [[menu.quicklink]]
         name    = "team"

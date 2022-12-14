@@ -2,6 +2,8 @@
 other = "Quem Somos"
 [service]
 other = "Serviços"
+[spotlight]
+other = "Diferenciais"
 [portfolio]
 other = "Portfólio"
 [blog]

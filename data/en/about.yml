@@ -4,6 +4,7 @@ topTitle  : O que fazemos
 title     : Serviços
 item:
 - positionRight: false
+  id: gestao
   title: Gestão da Qualidade
   image: images/about/qualidade.png
   description: A implantação de um sistema de gestão de qualidade irá potencializar
@@ -14,14 +15,17 @@ item:
 
   name: Segurança da Informação
 - positionRight: true
+  id: seguranca
   image: images/about/seguranca.png
   title: Segurança da Informação
   description: Em tempos de constante crescimento das atividades online, surgiu a
     necessidade de melhorar a proteção dos dados dos clientes da sua empresa, seu
     maior bem. Proteja sua empresa com nível militar de segurança da informação implementando
     medidas técnicas e organizacionais.
-    
+
+  name: ISO  
 - positionRight: false
+  id: iso
   title: ISO
   image: images/about/iso.png
   description: Certifique a sua empresa em diferentes frentes de trabalho, como na
@@ -29,7 +33,9 @@ item:
     do negócio otimiza processos e possibilita medir os resultados.  O que não é gerenciado
     não pode ser medido.
   
+  name: LGPD
 - positionRight: true
+  id: lgpd
   title: LGPD
   image: images/about/lgpd.png
   description: A Lei Geral de Proteção de Dados segue tendência mundial no sentido

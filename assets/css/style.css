@@ -769,10 +769,15 @@ a:focus, a:hover {
   }
 }
 
-.rightleftboxes{
+.about .rightleftboxes{
   background: #2727279c;
   padding: 30px;
   max-width: 100%;
+}
+
+.about .anchor{
+  height: 20px;
+  width: 100%;
 }
 
 /*=================================================================
@@ -960,6 +965,10 @@ a:focus, a:hover {
 .map #map {
   height: 400px;
   color: white;
+}
+
+.mapa img{
+  max-width: 100%;
 }
 
 .contact-meta-block {

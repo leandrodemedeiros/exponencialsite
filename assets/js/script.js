@@ -225,7 +225,7 @@ function initialize() {
 
 	var latitude = $('#map').data('lat');
 	var longitude = $('#map').data('long');
-    var nottingham = new google.maps.LatLng(latitude, longitude);
+    var exponencial = new google.maps.LatLng(latitude, longitude);
 
     var style = [
     	{"stylers": [{"hue": "#ff61a6"},{"visibility": "on"},{"invert_lightness": true},{"saturation": 40},{"lightness": 10}]}
@@ -233,7 +233,7 @@ function initialize() {
 
     var mapOptions = {
         // SET THE CENTER
-        center: nottingham,
+        center: exponencial,
 
         // SET THE MAP STYLE & ZOOM LEVEL
         mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -267,7 +267,7 @@ function initialize() {
     var pinIcon = new google.maps.MarkerImage(marker_image,null,null, null,new google.maps.Size(25, 33));
 	
     marker = new google.maps.Marker({
-        position: nottingham,
+        position: exponencial,
         map: map,
         icon: pinIcon,
         title: 'navigator'
