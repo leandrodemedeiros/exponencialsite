@@ -15,10 +15,7 @@ other = "Gestão de Qualidade"
 other = "Segurança da Informação"
 [iso]
 other = "ISO"
-
-[partners]
-other = "Partners"
-[faqs]
-other = "FAQ's"
-[badges]
-other = "Badges"
+[LGPD]
+other = "LGPD"
+[team]
+other = "Nosso Time"

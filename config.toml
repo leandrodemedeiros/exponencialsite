@@ -173,16 +173,12 @@ DefaultContentLanguage = "en"
         weight  = 2
     [[menu.nav]]
         name    = "service"
-        url     = "services"
+        url     = "service"
         weight  = 3
     [[menu.nav]]
         name    = "portfolio"
         url     = "clients"
         weight  = 4
-    [[menu.nav]]
-        name    = "blog"
-        url     = "blog"
-        weight  = 5
     [[menu.nav]]
         name    = "contact"
         url     = "contact"
@@ -191,31 +187,35 @@ DefaultContentLanguage = "en"
     # Footer Service Menu
     [[menu.service]]
         name    = "gestaoqualidade"
-        url     = "services"
+        url     = "service"
         weight  = 1
     [[menu.service]]
         name    = "segurancainformacao"
-        url     = "services"
+        url     = "service"
         weight  = 2
     [[menu.service]]
         name    = "iso"
-        url     = "services"
+        url     = "service"
         weight  = 3
+    [[menu.service]]
+        name    = "LGPD"
+        url     = "service"
+        weight  = 4
 
     # Footer Quick links Menu
     [[menu.quicklink]]
-        name    = "partners"
+        name    = "about"
         url     = "about"
         weight  = 1
     [[menu.quicklink]]
-        name    = "about"
-        url     = "about"
+        name    = "portfolio"
+        url     = "clients"
         weight  = 2
     [[menu.quicklink]]
-        name    = "faqs"
-        url     = "about"
+        name    = "service"
+        url     = "service"
         weight  = 3
     [[menu.quicklink]]
-        name    = "badges"
-        url     = "about"
+        name    = "team"
+        url     = "team"
         weight  = 4
