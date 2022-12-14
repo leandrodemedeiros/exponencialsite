@@ -580,7 +580,7 @@ a:focus, a:hover {
 }
 
 .hero-area {
-  padding: 150px 0;
+  padding: 180px 0 150px 0;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -592,7 +592,7 @@ a:focus, a:hover {
       -ms-flex-align: center;
           align-items: center;
   /* background: #1f2532; */
-  background: #041424 url(../images/fundo-hero.png) center bottom no-repeat;
+  background: #041424 url(../images/bg-blue.jpg) center bottom no-repeat;
 }
 
 .hero-area span {
@@ -638,6 +638,11 @@ a:focus, a:hover {
 .video-player iframe {
   width: 100%;
   height: 100%;
+}
+
+.hero-area .logoexponencial {
+  width: auto;
+  max-width: 100%;
 }
 
 .video-player .play-icon {
@@ -726,9 +731,9 @@ a:focus, a:hover {
 /*=================================================================
   About us section
 ==================================================================*/
-.about {
-  /* background: #fff; */
-}
+/* .about {
+  background: #fff;
+} */
 
 .about h2 {
   font-size: 40px;
@@ -767,6 +772,7 @@ a:focus, a:hover {
 .rightleftboxes{
   background: #2727279c;
   padding: 30px;
+  max-width: 100%;
 }
 
 /*=================================================================

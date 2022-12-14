@@ -1,17 +1,17 @@
-{{ if .Site.Params.aboutSm.enable }}
+{{ if .Site.Params.aboutsm.enable }}
 {{ "<!-- Start About Section -->" | safeHTML }}
 <section class="about-2 section bg-gray" id="about">
     <div class="container">
         <div class="row">
             <div class = "col">
                 <div class="title text-center">
-                    {{ with .Site.Params.aboutSm.topTitle }}<h4>{{.}}</h4>{{ end }}
-                    {{ with .Site.Params.aboutSm.title }}
+                    {{ with .Site.Params.aboutsm.topTitle }}<h4>{{.}}</h4>{{ end }}
+                    {{ with .Site.Params.aboutsm.title }}
                     <h2>{{ . }}</h2>
                     <span class="border"></span>
                     {{ end }}
                 </div>
-                {{ with .Site.Params.aboutSm.description }}
+                {{ with .Site.Params.aboutsm.description }}
                     <p>{{ . | markdownify }}</p>
                 {{ end }}
             </div>
