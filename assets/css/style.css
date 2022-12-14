@@ -117,7 +117,7 @@ a:focus, a:hover {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 110px 0;
 }
 
 @media (max-width: 480px) {
@@ -137,14 +137,14 @@ a:focus, a:hover {
 }
 
 .section-sm {
-  padding: 70px 0;
+  padding: 110px 0;
   background: #1d1d1d url(../images/bg-gray.jpg) center top no-repeat;
   background-size: auto;
   color: white;
 }
 
 .section-xs {
-  padding: 100px 0;
+  padding: 110px 0;
   background: #041424 url(../images/bg-blue.jpg) center top no-repeat;
   background-size: auto;
 }
@@ -774,7 +774,7 @@ a:focus, a:hover {
 ==================================================================*/
 .about-2 {
   /* background: #F7F7F7; */
-  padding: 160px 0;
+  padding: 110px 0;
   color: white;
   background: #1c1c1c url(../images/fundo-quemsomos.jpg) no-repeat center top;
   background-size: auto 100%;
@@ -791,7 +791,7 @@ a:focus, a:hover {
   position: relative;
 }
 
-.about-2 h2:before {
+/* .about-2 h2:before {
   position: absolute;
   left: -15%;
   top: 18px;
@@ -802,7 +802,7 @@ a:focus, a:hover {
   background-color: #ffa535;
   background-image: linear-gradient(100deg,#00adee,#4583ff);
   background-image: linear-gradient(100deg,#00adee,#4583ff);
-}
+} */
 
 @media (max-width: 768px) {
   .about-2 h2:before {
@@ -871,7 +871,7 @@ a:focus, a:hover {
   border: 1px solid #dedede;
   box-shadow: none;
   height: 45px !important;
-  color: #0c0c0c;
+  color: white;
   height: 38px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;

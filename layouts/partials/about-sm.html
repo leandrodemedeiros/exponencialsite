@@ -3,12 +3,14 @@
 <section class="about-2 section bg-gray" id="about">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-5">
-                {{ with .Site.Params.aboutSm.title }}
+            <div class = "col">
+                <div class="title text-center">
+                    {{ with .Site.Params.aboutSm.topTitle }}<h4>{{.}}</h4>{{ end }}
+                    {{ with .Site.Params.aboutSm.title }}
                     <h2>{{ . }}</h2>
-                {{ end }}
-            </div>
-            <div class="col-12 col-md-7">
+                    <span class="border"></span>
+                    {{ end }}
+                </div>
                 {{ with .Site.Params.aboutSm.description }}
                     <p>{{ . | markdownify }}</p>
                 {{ end }}
