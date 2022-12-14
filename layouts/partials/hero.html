@@ -13,9 +13,11 @@
             </div>
             <div class="col-md-6">
                 <div class="block">
-                    <span>BEM-VINDO À</span>{{ with .Site.Params.hero.heading }}
+                    <span>BEM-VINDO À</span>
+                    <img src="images/logotipoexponencial.png" alt="Exponencial" />
+                    <!-- {{ with .Site.Params.hero.heading }}
                         <h2>{{ . }}</h2>
-                    {{ end }}
+                    {{ end }} -->
                     {{ with .Site.Params.hero.description }}
                         <p>{{ . }}</p>
                     {{ end }}

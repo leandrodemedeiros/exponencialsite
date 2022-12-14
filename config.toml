@@ -118,7 +118,7 @@ DefaultContentLanguage = "en"
         heading = "Exponencial"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
         button  = true
-        btnText = "Contato"
+        btnText = "Entre em contato"
         btnURL  = "#contact"
         videoThumb = "images/video-player-thumb.jpg"
         videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
@@ -180,6 +180,10 @@ DefaultContentLanguage = "en"
         name    = "portfolio"
         url     = "clients"
         weight  = 4
+    [[menu.nav]]
+        name    = "team"
+        url     = "team"
+        weight  = 5
     [[menu.nav]]
         name    = "contact"
         url     = "contact"
