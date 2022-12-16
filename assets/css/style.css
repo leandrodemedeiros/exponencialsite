@@ -987,7 +987,7 @@ a:focus, a:hover {
   margin-bottom: 20px;
 }
 
-.politica {
+.linkpolitica {
   color: white;
   font-size: 14px;
   text-align: center;
@@ -995,7 +995,7 @@ a:focus, a:hover {
   padding: 5px 0;
 }
 
-.politica a {
+.linkpolitica a {
   color: #00adee;
   text-decoration:underline;
 }
