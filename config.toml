@@ -166,7 +166,7 @@ DefaultContentLanguage = "en"
     # Politicas
     [Languages.en.params.politica]
         enable = true
-        url = "/politica"
+        url = "politica"
 
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
 
