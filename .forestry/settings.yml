@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/en/aboutsm.yml
   label: Quem Somos
-  match: "**/*"
 - type: document
   path: data/en/about.yml
   label: Serviços
