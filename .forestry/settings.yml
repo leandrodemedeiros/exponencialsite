@@ -5,8 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: data/en/aboutsm.yml
+  label: Quem Somos
+  match: "**/*"
+- type: document
   path: data/en/about.yml
-  label: Nossos Serviços
+  label: Serviços
 - type: document
   path: data/en/feature.yml
   label: Spotlight
