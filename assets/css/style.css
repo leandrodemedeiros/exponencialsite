@@ -987,6 +987,19 @@ a:focus, a:hover {
   margin-bottom: 20px;
 }
 
+.politica {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  padding: 5px 0;
+}
+
+.politica a {
+  color: #00adee;
+  text-decoration:underline;
+}
+
 /*=================================================================
   Item counter section
 ==================================================================*/
@@ -1342,9 +1355,9 @@ a:focus, a:hover {
   box-shadow: none;
 }
 
-.clients-logo-slider {
+/* .clients-logo-slider {
   margin-top: 50px;
-}
+} */
 
 /*=================================================================
   Step section
