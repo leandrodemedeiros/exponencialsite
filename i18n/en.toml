@@ -10,6 +10,8 @@ other = "Portfólio"
 other = "Blog"
 [contact]
 other = "Contato"
+[politica]
+other = "Politica"
 
 [gestaoqualidade]
 other = "Gestão de Qualidade"

@@ -163,6 +163,11 @@ DefaultContentLanguage = "en"
         subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
         btnText = "Contact Us"
 
+    # Politicas
+    [Languages.en.params.politica]
+        enable = true
+        url = "/politica"
+
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
 
 # Site Menus
