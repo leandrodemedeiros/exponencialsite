@@ -134,7 +134,7 @@ DefaultContentLanguage = "en"
     [Languages.en.params.blog]
         enable  = false
         topTitle= "OUR UNTOLD STORY"
-        title   = "Blog."
+        title   = "Blog"
         subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 
     # Contact Section
@@ -154,6 +154,7 @@ DefaultContentLanguage = "en"
         mapLatitude = "-15.7801"
         mapLongitude= "-47.9292"
         mapMarker   = "images/marker.png"
+        privacidadeURL = "privacidade/"
 
     # Call to Action Section on About Page
     [Languages.en.params.cta]
@@ -164,15 +165,17 @@ DefaultContentLanguage = "en"
         btnText = "Contact Us"
 
     # Politicas
-    [Languages.en.params.politica]
+    [Languages.en.params.privacidade]
         enable = true
-        url = "politica"
-
-# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+        linkURL = "privacidade/"
+        topTitle = "Privacidade"
+        title = "Politica de Uso"
+        linkText = "Privacidade"
+        description = "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
 
 # Site Menus
 [menu]
-    # Navbar Menus
+    # Menu Principal
     [[menu.nav]]
         name    = "about"
         url     = "about"
@@ -194,7 +197,7 @@ DefaultContentLanguage = "en"
         url     = "contact"
         weight  = 6
 
-    # Footer Service Menu
+    # Menu Nossos Serviços - Footer
     [[menu.service]]
         name    = "gestaoqualidade"
         url     = "gestao"
@@ -212,7 +215,7 @@ DefaultContentLanguage = "en"
         url     = "lgpd"
         weight  = 4
 
-    # Footer Quick links Menu
+    # Menu A Exponencial - Footer
     [[menu.quicklink]]
         name    = "about"
         url     = "about"

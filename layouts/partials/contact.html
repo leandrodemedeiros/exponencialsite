@@ -56,7 +56,7 @@
                     <input type="hidden" name="_template" value="table">
                     <div id="cf-submit">
                         <input type="submit" id="contact-submit" class="btn btn-transparent" value="Enviar">
-                        <span class="linkpolitica">Ao clicar em "Enviar" declaro estar de acordo com a <a href="{{ with .Site.Params.politica.url }}{{.}}{{ end }}">política de uso.</a></span>
+                        {{ with .Site.Params.contact.privacidadeURL }}<span class="linkpolitica">Ao clicar em "Enviar" declaro estar de acordo com a <a href="{{.}}">política de uso.</a></span>{{ end }}
                     </div>
                 </form>
             </div>

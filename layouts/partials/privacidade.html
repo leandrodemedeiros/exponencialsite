@@ -1,0 +1,25 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.privacidade }}
+    {{ if .enable }}
+    {{ "<!-- Privacidade Section Start -->" | safeHTML }}
+    <section class="section bg-gray" id="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="title text-center">
+                        {{ with .topTitle }}<h4>{{.}}</h4>{{ end }}
+                        {{ with .title }}
+                        <h2>{{.}}</h2>
+                        <span class="border"></span>
+                        {{ end }}
+                        {{ with .description }}
+                        <p>{{.}}</p>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{ "<!-- Privacidade Section End -->" | safeHTML }}
+    {{ end }}
+{{ end }}
