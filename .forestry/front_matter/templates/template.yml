@@ -1,0 +1,280 @@
+---
+label: Template
+hide_body: true
+fields:
+- type: text
+  name: baseURL
+  label: baseURL
+- type: text
+  name: languageCode
+  label: languageCode
+- type: text
+  name: title
+  label: title
+- type: text
+  name: theme
+  label: theme
+- type: boolean
+  name: enableRobotsTXT
+  label: enableRobotsTXT
+- type: text
+  name: googleAnalytics
+  label: googleAnalytics
+- type: boolean
+  name: enableGitInfo
+  label: enableGitInfo
+- type: boolean
+  name: pygmentsCodeFences
+  label: pygmentsCodeFences
+- type: boolean
+  name: defaultContentLanguageInSubdir
+  label: defaultContentLanguageInSubdir
+- type: text
+  name: DefaultContentLanguage
+  label: DefaultContentLanguage
+- type: field_group
+  name: params
+  label: params
+  fields:
+  - type: file
+    name: logo
+    label: logo
+- type: field_group
+  name: Params
+  label: Params
+  fields:
+  - type: field_group_list
+    name: listeLangues
+    label: listeLangues
+    fields:
+    - type: text
+      name: code
+      label: code
+- type: field_group
+  name: Languages
+  label: Languages
+  fields:
+  - type: field_group
+    name: en
+    label: en
+    fields:
+    - type: number
+      name: weight
+      label: weight
+    - type: text
+      name: languageCode
+      label: languageCode
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: dateFormat
+      label: dateFormat
+    - type: text
+      name: home
+      label: home
+    - type: file
+      name: logo
+      label: logo
+    - type: boolean
+      name: menufixed
+      label: menufixed
+    - type: textarea
+      name: footerDescription
+      label: footerDescription
+    - type: text
+      name: footerServiceTitle
+      label: footerServiceTitle
+    - type: text
+      name: footerQuicklinkTitle
+      label: footerQuicklinkTitle
+    - type: text
+      name: footerAboutTitle
+      label: footerAboutTitle
+    - type: text
+      name: footerSubscribeTitle
+      label: footerSubscribeTitle
+    - type: field_group
+      name: params
+      label: params
+      fields:
+      - type: field_group
+        name: hero
+        label: hero
+        fields:
+        - type: boolean
+          name: enable
+          label: enable
+        - type: text
+          name: heading
+          label: heading
+        - type: textarea
+          name: description
+          label: description
+        - type: boolean
+          name: button
+          label: button
+        - type: text
+          name: btnText
+          label: btnText
+        - type: text
+          name: btnURL
+          label: btnURL
+        - type: file
+          name: videoThumb
+          label: videoThumb
+        - type: text
+          name: videoURL
+          label: videoURL
+      - type: field_group
+        name: blog
+        label: blog
+        fields:
+        - type: boolean
+          name: enable
+          label: enable
+        - type: text
+          name: topTitle
+          label: topTitle
+        - type: text
+          name: title
+          label: title
+        - type: textarea
+          name: subtitle
+          label: subtitle
+      - type: field_group
+        name: contact
+        label: contact
+        fields:
+        - type: boolean
+          name: enable
+          label: enable
+        - type: text
+          name: topTitle
+          label: topTitle
+        - type: text
+          name: title
+          label: title
+        - type: text
+          name: subtitle
+          label: subtitle
+        - type: text
+          name: address
+          label: address
+        - type: text
+          name: email
+          label: email
+        - type: text
+          name: phone
+          label: phone
+        - type: text
+          name: facebook
+          label: facebook
+        - type: text
+          name: twitter
+          label: twitter
+        - type: text
+          name: linkedin
+          label: linkedin
+        - type: text
+          name: dribbble
+          label: dribbble
+        - type: text
+          name: instagram
+          label: instagram
+        - type: text
+          name: mapLatitude
+          label: mapLatitude
+        - type: text
+          name: mapLongitude
+          label: mapLongitude
+        - type: file
+          name: mapMarker
+          label: mapMarker
+        - type: text
+          name: privacidadeURL
+          label: privacidadeURL
+      - type: field_group
+        name: cta
+        label: cta
+        fields:
+        - type: boolean
+          name: enable
+          label: enable
+        - type: file
+          name: bg
+          label: bg
+        - type: text
+          name: title
+          label: title
+        - type: textarea
+          name: subtitle
+          label: subtitle
+        - type: text
+          name: btnText
+          label: btnText
+      - type: field_group
+        name: privacidade
+        label: privacidade
+        fields:
+        - type: boolean
+          name: enable
+          label: enable
+        - type: text
+          name: linkURL
+          label: linkURL
+        - type: text
+          name: topTitle
+          label: topTitle
+        - type: text
+          name: title
+          label: title
+        - type: text
+          name: linkText
+          label: linkText
+        - type: textarea
+          name: description
+          label: description
+- type: field_group
+  name: menu
+  label: menu
+  fields:
+  - type: field_group_list
+    name: nav
+    label: nav
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
+    - type: number
+      name: weight
+      label: weight
+  - type: field_group_list
+    name: service
+    label: service
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
+    - type: number
+      name: weight
+      label: weight
+  - type: field_group_list
+    name: quicklink
+    label: quicklink
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
+    - type: number
+      name: weight
+      label: weight
