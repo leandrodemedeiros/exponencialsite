@@ -581,7 +581,7 @@ a:focus, a:hover {
 }
 
 .hero-area {
-  padding: 180px 0 150px 0;
+  padding: 150px 0 150px 0;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -603,7 +603,7 @@ a:focus, a:hover {
 
 @media (max-width: 480px) {
   .hero-area {
-    padding: 80px 0;
+    padding: 40px 0;
   }
 }
 
@@ -773,12 +773,6 @@ a:focus, a:hover {
 .about .rightleftboxes{
   background: #2727279c;
   padding: 30px;
-  max-width: 100%;
-}
-
-.about .anchor{
-  height: 10px;
-  width: 100%;
 }
 
 /*=================================================================
@@ -1801,7 +1795,7 @@ a:focus, a:hover {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 20px;
+  margin: 10px 0;
 }
 
 .top-footer p {

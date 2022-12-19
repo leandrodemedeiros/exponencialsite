@@ -18,8 +18,7 @@
             <div class="row">
                 {{ range .item }}
                     {{ if .positionRight }}
-                        <hr class="anchor"  id="{{ .id }}" />
-                        <div class="row mt-50 justify-content-center rightleftboxes">
+                        <div id="{{ .id }}" class="row mt-50 justify-content-center rightleftboxes">
                             <div class="col-md-5 col-md-5 col-sm-12 offset-md-1">
                                 <div class="content">
                                     <h2>{{ .title }}</h2>
@@ -33,8 +32,7 @@
                             </div>
                         </div>
                     {{ else }}
-                        <hr class="anchor"  id="{{ .id }}" />
-                        <div class="row mt-50 justify-content-center rightleftboxes">
+                        <div id="{{ .id }}" class="row mt-50 justify-content-center rightleftboxes">
                             <div class="col-md-5 col-sm-12 text-center offset-md-1">
                                 <img src="{{ .image | absURL }}" class="img-fluid rounded shadow" alt="about-image">
                             </div>
