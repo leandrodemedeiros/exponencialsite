@@ -133,7 +133,7 @@ DefaultContentLanguage = "en"
     # Contact Section
     [Languages.en.params.contact]
         enable  = true
-        topTitle= "Envie uma mensagem"
+        topTitle= "Fale conosco"
         title   = "Contato"
         subtitle= ""
         address = "Cond. Vivendas Colorado I Conj. D, 4A, Sobradinho, Brasília - Brasil | CEP: 73.105-907"

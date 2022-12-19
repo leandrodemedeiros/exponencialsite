@@ -3,6 +3,7 @@ body {
   line-height: 1.4;
   font-family: "Titillium Web", sans-serif;
   -webkit-font-smoothing: antialiased;
+  background: #1f2532;
 }
 
 p {
@@ -458,7 +459,7 @@ a:focus, a:hover {
 
 .single-page-header {
   background: #1f2532;
-  padding: 50px 0;
+  padding: 20px 0;
   text-align: center;
   color: #fff;
   position: relative;
@@ -483,7 +484,7 @@ a:focus, a:hover {
   transition: .3s all;
   background: rgba(31, 37, 50, 0.71);
   box-shadow: 0px 5px 36px -12px black;
-  position: fixed;
+  position: sticky;
   z-index: 19999;
   width: 100%;
   backdrop-filter: blur(5px);
@@ -1877,7 +1878,7 @@ a:focus, a:hover {
 
 /*# sourceMappingURL=maps/style.css.map */
 .top-bar {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   background: #fff;
@@ -1896,6 +1897,6 @@ a:focus, a:hover {
   min-height: 106px;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  background: rgba(0, 20, 32, 0.7);
+  background: rgba(31, 37, 50, 0.8);
   box-shadow: 0px 5px 36px -12px black;
 }
