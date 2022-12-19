@@ -1,4 +1,16 @@
-enable    : true
-topTitle  : Privacidade
-title     : Política de Uso
-description: A Exponencial apresenta soluções em tecnologia, com objetivo de integrar a gestão empresarial, as camadas de governança, compliance, ISO, LGPD e a segurança dos sistemas de informação em uma plataforma que permita o controle da informação alinhado com a gestão e os processos de segurança e qualidade. De modo a facilitar a tomada de decisão diretiva em conformidade com as inovações tecnológicas e normativas exigidas nos mercados nacionais e internacionais.
+---
+enable: true
+layout: page
+topTitle: Política de Uso
+title: Privacidade
+item:
+  - titulo: Política de Privacidade
+  - paragrafo: A Exponencial, na busca pelo cumprimento dos marcos regulatórios, procura preservar a privacidade e segurança, sempre balizada pela transparência no tratamento de dados pessoais dos nossos usuários e clientes. Por isso, a presente Política de Privacidade estabelece como é feita a coleta dos dados das pessoas que acessam ou usam nosso site. Ao acessar nosso site e, caso venha a preencher o formulário de contato existente, você entende que coletaremos e usaremos suas informações pessoais nas formas descritas nesta Política, sob as normas de Proteção de Dados (LGPD, Lei Federal 13.709/2018), das disposições consumeristas da Lei Federal 8078/1990 e as demais normas do ordenamento jurídico brasileiro aplicáveis.
+  - paragrafo: Ao acessar nosso site e, caso venha a preencher o formulário de contato existente, você entende que coletaremos e usaremos suas informações pessoais nas formas descritas nesta Política, sob as normas de Proteção de Dados (LGPD, Lei Federal 13.709/2018), das disposições consumeristas da Lei Federal 8078/1990 e as demais normas do ordenamento jurídico brasileiro aplicáveis.
+  - paragrafo: A coleta desses danos se dará única e exclusivamente para contato com os clientes, sendo que não será compartilhado com terceiros nenhum tipo de informação relacionada ao preenchimento do citado formulário. Importante informar que o titular dos dados tem o direito à eliminação dos dados tratados com o consentimento (pedido de apagamento) caso mude de ideia em relação ao cadastro feito através do formulário disponível no site.  Para tanto será necessário entrar em contato com nosso Encarregado de Proteção de Dados Pessoais (DPO) através do contato abaixo e informar sobre sua mudança de intensão.
+  - titulo: Cookies ou dados de navegação
+  - paragrafo: A Exponencial faz uso apenas de Cookies tecnicamente essenciais, que são arquivos de texto enviados pela plataforma ao seu computador e que nele se armazenam temporariamente. Esses arquivos contêm informações relacionadas à navegação do site. Em suma, os Cookies essenciais são necessários para o funcionamento do site e também utilizados para aprimorar a experiência de uso, não armazenando nenhuma informação do usuário durante a navegação.
+  - paragrafo: Ao acessar nosso site e consentir com o uso de Cookies, você manifesta conhecer e aceitar a utilização de um sistema de coleta de dados de navegação com o uso de Cookies em seu dispositivo. 
+  - titulo: Encarregado de Proteção de Dados
+  - paragrafo: A Exponencial disponibiliza o e-mail contato@exponencialadm.com como meio para que você possa entrar em contato conosco para exercer seus direitos de titular. 
+  - paragrafo: Caso tenha dúvidas sobre esta Política de Privacidade ou sobre os dados pessoais que tratamos, você pode entrar em contato com o nosso Encarregado de Proteção de Dados Pessoais, através eo e-mail dpo@exponencialadm.com

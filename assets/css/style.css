@@ -1540,6 +1540,27 @@ a:focus, a:hover {
 }
 
 /*=================================================================
+  Privacidade
+==================================================================*/
+.privacidade .termosdeuso{
+  padding: 60px 0;
+  color: white;
+  background: rgba(29,29,29,.62);
+  margin: 20px;
+}
+.privacidade .termosdeuso h3{
+  margin: 20px auto;
+  font-size: 1.2em;
+  text-align: left;
+  width: 80%;
+}
+
+.privacidade .termosdeuso p{
+  text-align: left;
+  width: 80%;
+}
+
+/*=================================================================
   Latest Posts
 ==================================================================*/
 .post-item {

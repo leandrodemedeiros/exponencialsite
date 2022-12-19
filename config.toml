@@ -123,13 +123,6 @@ DefaultContentLanguage = "en"
         videoThumb = "images/video-player-thumb.jpg"
         videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
-    # About 2 Section
-    # [Languages.en.params.aboutsm]
-    #     enable  = true
-    #     topTitle = "A Exponencial"
-    #     title   = "Quem Somos"
-    #     description = "A Exponencial apresenta soluções em tecnologia, com objetivo de integrar a gestão empresarial, as camadas de governança, compliance, ISO, LGPD e a segurança dos sistemas de informação em uma plataforma que permita o controle da informação alinhado com a gestão e os processos de segurança e qualidade. De modo a facilitar a tomada de decisão diretiva em conformidade com as inovações tecnológicas e normativas exigidas nos mercados nacionais e internacionais."
-
     # Blog Section On Homepage
     [Languages.en.params.blog]
         enable  = false
@@ -154,24 +147,25 @@ DefaultContentLanguage = "en"
         mapLatitude = "-15.7801"
         mapLongitude= "-47.9292"
         mapMarker   = "images/marker.png"
-        privacidadeURL = "privacidade/"
+        privacidadeURL = "/privacidade"
+        mapImage = "/images/map.png"
 
     # Call to Action Section on About Page
     [Languages.en.params.cta]
-        enable  = false
+        enable  = true
         bg      = "images/call-to-action/call-to-action-bg-2.jpg"
-        title   = "Let's Create Something Together"
-        subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
-        btnText = "Contact Us"
+        title   = "Estamos disponíveis para ajudar!"
+        subtitle= "Envie-nos suas dúvidas. Esperamos receber notícias suas!"
+        btnText = "Entrar em contato"
 
-    # Politicas
-    [Languages.en.params.privacidade]
-        enable = true
-        linkURL = "privacidade/"
-        topTitle = "Privacidade"
-        title = "Politica de Uso"
-        linkText = "Privacidade"
-        description = "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+    # # Politicas
+    # [Languages.en.params.privacidade]
+    #     enable = true
+    #     linkURL = "privacidade/"
+    #     topTitle = "Privacidade"
+    #     title = "Politica de Uso"
+    #     linkText = "Privacidade"
+    #     description = "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
 
 # Site Menus
 [menu]
@@ -232,3 +226,9 @@ DefaultContentLanguage = "en"
         name    = "team"
         url     = "team"
         weight  = 4
+
+    # Link Politicas
+    [[menu.privacy]]
+        name    = "privacidade"
+        url     = "privacidade/"
+        weight  = 1
