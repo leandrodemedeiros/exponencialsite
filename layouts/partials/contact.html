@@ -17,12 +17,12 @@
         <div class="row">
             {{ "<!-- Contact Details -->" | safeHTML }}
             <div class="col-12 col-md-6">
-                <div class="map">
+                <!-- <div class="map">
                     <div id="map" data-lat="{{ .Site.Params.contact.mapLatitude }}" data-long="{{ .Site.Params.contact.mapLongitude }}" data-marker="{{ .Site.Params.contact.mapMarker | absURL }}"></div>
-                </div>
-                <!-- <div class="mapa">
-                    <img src="{{ .Site.Params.contact.mapImage | relURL }}" alt="mapa" />
                 </div> -->
+                <div class="mapa">
+                    <img src="{{ .Site.Params.contact.mapImage | absURL }}" alt="mapa" />
+                </div>
             </div>
             {{ "<!-- Contact Form -->" | safeHTML }}
             <div class="contact-form col-12 col-md-6 ">
