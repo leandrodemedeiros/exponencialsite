@@ -106,7 +106,8 @@ a:focus, a:hover {
 }
 
 .mt-50 {
-  margin-top: 20px;
+  margin: 15px auto;
+  max-width: 100%;
 }
 
 .btn:focus {
