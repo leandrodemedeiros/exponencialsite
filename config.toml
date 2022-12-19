@@ -148,7 +148,7 @@ DefaultContentLanguage = "en"
         mapLongitude= "-47.9292"
         mapMarker   = "images/marker.png"
         privacidadeURL = "/privacidade"
-        mapImage = "/images/map.png"
+        mapImage = "images/map.png"
 
     # Call to Action Section on About Page
     [Languages.en.params.cta]
