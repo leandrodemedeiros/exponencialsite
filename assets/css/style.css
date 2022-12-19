@@ -106,7 +106,7 @@ a:focus, a:hover {
 }
 
 .mt-50 {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .btn:focus {
@@ -118,7 +118,7 @@ a:focus, a:hover {
 }
 
 .section {
-  padding: 110px 0;
+  padding: 50px 0;
 }
 
 @media (max-width: 480px) {
@@ -138,14 +138,14 @@ a:focus, a:hover {
 }
 
 .section-sm {
-  padding: 110px 0;
+  padding: 50px 0;
   background: #1d1d1d url(../images/bg-gray.jpg) center top no-repeat;
   background-size: auto;
   color: white;
 }
 
 .section-xs {
-  padding: 110px 0;
+  padding: 50px 0;
   background: #041424 url(../images/bg-blue.jpg) center top no-repeat;
   background-size: auto;
 }
@@ -777,7 +777,7 @@ a:focus, a:hover {
 }
 
 .about .anchor{
-  height: 20px;
+  height: 10px;
   width: 100%;
 }
 
@@ -786,7 +786,7 @@ a:focus, a:hover {
 ==================================================================*/
 .about-2 {
   /* background: #F7F7F7; */
-  padding: 110px 0;
+  padding: 50px 0;
   color: white;
   background: #1c1c1c url(../images/fundo-quemsomos.jpg) no-repeat center top;
   background-size: auto 100%;
