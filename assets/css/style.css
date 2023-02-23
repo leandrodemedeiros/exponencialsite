@@ -887,11 +887,11 @@ a:focus, a:hover {
 
 .contact-form input:hover,
 .contact-form textarea:hover,
-.contact-form #contact-submit:hover {
+.contact-form .btn-contact:hover {
   border-color: #00adee;
 }
 
-.contact-form #contact-submit {
+.contact-form .btn-contact {
   border: none;
   padding: 15px 0;
   width: 100%;

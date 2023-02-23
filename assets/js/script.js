@@ -212,32 +212,32 @@
 		}
 
 		//now when the validation is done we check if the error variable is false (no errors)
-		if (error == false) {
+		// if (error == false) {
 			//disable the submit button to avoid spamming
 			//and change the button text to Sending...
-			$('#contact-submit').attr({
-				'disabled': 'false',
-				'value': 'Enviando...'
-			});
+			// $('#contact-submit').attr({
+			// 	'disabled': 'false',
+			// 	'value': 'Enviando...'
+			// });
 
 			/* using the jquery's post(ajax) function and a lifesaver
 			function serialize() which gets all the data from the form
 			we submit it to send_email.php */
-			$.post("sendmail.php", $("#contact-form").serialize(), function (result) {
+			// $.post("sendmail.php", $("#contact-form").serialize(), function (result) {
 				//and after the ajax request ends we check the text returned
-				if (result == 'sent') {
+				// if (result == 'sent') {
 					//if the mail is sent remove the submit paragraph
-					$('#cf-submit').remove();
+					// $('#cf-submit').remove();
 					//and show the mail success div with fadeIn
-					$('#mail-success').fadeIn(500);
-				} else {
+					// $('#mail-success').fadeIn(500);
+				// } else {
 					//show the mail failed div
-					$('#mail-fail').fadeIn(500);
+					// $('#mail-fail').fadeIn(500);
 					//re enable the submit button by removing attribute disabled and change the text back to Send The Message
-					$('#contact-submit').removeAttr('disabled').attr('value', 'Send The Message');
-				}
-			});
-		}
+					// $('#contact-submit').removeAttr('disabled').attr('value', 'Send The Message');
+				// }
+			// });
+		// }
 	});
 
 

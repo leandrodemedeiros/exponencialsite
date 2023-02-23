@@ -26,38 +26,41 @@
             </div>
             {{ "<!-- Contact Form -->" | safeHTML }}
             <div class="contact-form col-12 col-md-6 ">
-                <form id="contact-form" method="post" action="https://formsubmit.co/wendelmaques@gmail.com" role="form">
+                <form method="post" action="https://formsubmit.co/wendelmaques@gmail.com" role="form">
                     <div class="form-group">
-                        <input type="text" placeholder="Seu nome" class="form-control" name="nome" id="name">
+                        <input type="text" placeholder="Seu nome" class="form-control" name="Nome" id="name">
                     </div>
 
                     <div class="form-group">
-                        <input type="email" placeholder="Seu email" class="form-control" name="email" id="email">
+                        <input type="email" placeholder="Seu email" class="form-control" name="Email" id="email">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" placeholder="Assunto" class="form-control" name="assunto" id="subject">
+                        <input type="text" placeholder="Assunto" class="form-control" name="Assunto" id="subject">
                     </div>
 
                     <div class="form-group">
-                        <textarea rows="6" placeholder="Mensagem" class="form-control" name="mensagem" id="message"></textarea>
+                        <textarea rows="6" placeholder="Mensagem" class="form-control" name="Mensagem" id="message"></textarea>
                     </div>
 
-                    <div id="mail-success" class="success">
+                    <!-- <div id="mail-success" class="success">
                         Obrigado! Sua resposta será enviada em breve :)
                     </div>
 
                     <div id="mail-fail" class="error">
                         Desculpe, algo aconteceu. Tenta novamente. :(
-                    </div>
+                    </div> -->
 
                     <input type="hidden" name="_next" value="https://exponencialadm.com">
                     <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_template" value="table">
-                    <div id="cf-submit">
-                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Enviar">
+                    <input type="hidden" name="_template" value="box">
+                    <input type="hidden" name="_subject" value="Nova mensagem de contato!">
+                    <button type="submit" class="btn btn-transparent btn-contact">Enviar</button>
+                    <!-- <div id="cf-submit"> -->
+                        <!-- <input type="submit" id="contact-submit" class="btn btn-transparent" value="Enviar"> -->
+                        
                         <span class="linkpolitica">Ao clicar em "Enviar" declaro estar de acordo com a <a href="{{ .Site.Params.contact.privacidadeURL | absURL }}">política de uso.</a></span>
-                    </div>
+                    <!-- </div> -->
                 </form>
             </div>
         </div>
